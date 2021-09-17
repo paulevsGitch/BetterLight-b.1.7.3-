@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "betterlight",
+	"version": "${version}",
+
+	"name": "Better Nether Beta",
+	"description": "Enhancement for the Nether dimension",
+	"authors": [
+		"paulevs"
+	],
+	"contact": {
+		"homepage": "https://github.com/paulevsGitch/BetterNetherBeta/releases",
+		"sources": "https://github.com/paulevsGitch/BetterNetherBeta",
+		"issues": "https://github.com/paulevsGitch/BetterNetherBeta/issues"
+	},
+
+	"license": "CC0-1.0",
+	"icon": "assets/betterlight/icon.png",
+
+	"environment": "*",
+	"entrypoints": {
+		"stationmod": [
+			"paulevs.betterlight.BetterLight"
+		]
+	},
+
+	"mixins": [
+		"betterlight.mixins.json"
+	],
+
+	"depends": {
+		"minecraft": "1.0.0-beta.7.3",
+		"stationloader": "1.3.*"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "paulevs.betterlight.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [],
+	"server": [],
+	"client": [
+		"MinecraftMixin",
+		"TileRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
