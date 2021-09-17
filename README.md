@@ -1,13 +1,27 @@
 [![](https://jitpack.io/v/paulevsGitch/BetterLight-b.1.7.3-.svg)](https://jitpack.io/#paulevsGitch/BetterLight-b.1.7.3-)
 # BetterLight mod for Minecraft beta 1.7.3 (client side)
 
-This is a small mod that improves lighting in Beta.
+This is a small mod that improves lighting in Beta. Mod is completely client side.
 
 **Content list:**
 - Color lights (for any light sources including modded);
 - API for light sources registration;
 - Custom AO calculation.
 
+**Compatibility:**
+- Compatible with GLSL (tested);
+- Compatible with BNB (will also have internal support);
+- Should be compatible with other rendering-related mods.
+
+
+**Realisation Details:**
+- Colored lights uses simple linear interpolations and vertex coloring;
+- AO uses some smart calculations to prevent too dark areas and light leaks;
+
+**Realisation Limitation:**
+- Colored light only affect small area around block;
+- Light mixing can result with white color;
+- Light sources are not too bright.
 
 Requires **[Fabric Legacy](https://github.com/calmilamsy/Cursed-Fabric-MultiMC)** and **[Station API](https://github.com/ModificationStation/StationAPI)** (>= 1.3)
 
