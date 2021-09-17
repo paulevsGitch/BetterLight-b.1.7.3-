@@ -23,7 +23,7 @@ This is a small mod that improves lighting in Beta. Mod is completely client sid
 - Light mixing can result with white color;
 - Light sources are not too bright.
 
-Requires **[Fabric Legacy](https://github.com/calmilamsy/Cursed-Fabric-MultiMC)** and **[Station API](https://github.com/ModificationStation/StationAPI)** (>= 1.3)
+Requires **[Fabric Legacy](https://github.com/calmilamsy/Cursed-Fabric-MultiMC)** and **[Station API](https://github.com/ModificationStation/StationAPI)** (1.3.1)
 
 ## How to install (MultiMC):
 - Download [MultiMC instance](https://github.com/calmilamsy/Cursed-Fabric-MultiMC) and import it as zip
